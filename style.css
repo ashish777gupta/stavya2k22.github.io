@@ -2,6 +2,13 @@
     display: inline;
 }
 
+body {
+    overflow: hidden;
+}
+ 
+a {
+    text-decoration: none;
+}
 
 .welcomeH {
     font-family: 'DM Serif Display', serif;
@@ -37,7 +44,7 @@
     float: right;
     color: #FCF5EB;
     text-align: right;
-    width: 44em;
+    width: 50em;
     word-wrap: break-word;
     margin-top: 5.5em;
     margin-right: 3em;
@@ -67,31 +74,31 @@
     letter-spacing: 0.2em;
     /* display: inline; */
     float: left;
-    /* font-weight: 300; */
-    margin-top: 9em;
-    /* margin-left: -90em; */
+    margin-top: 7em;
 }
 
 .container {
     display: flex;
-    /* width: 700em; */
 }
 
 .containerLeft {
     display: block;
-    width: 50rem;
+    width: 90em;
 }
 
 .containerRight {
+    display: inline;
+    /* justify-content: right; */
     /* width: 50em; */
     margin-left: 27em;
     margin-top: 4em;
     float: right;
-    /* width: 50em; */
+    width: 20em;
 }
 
 .intLogoRed {
     float: right;
+    margin-right: 2em;
     width: 5em;
     
 }
@@ -99,13 +106,13 @@
 .navBar {
     display: flex;
     font-family: 'Open Sans', sans-serif;
-    /* font-size: 0.6em; */
+    font-size: 0.9em;
     letter-spacing: 0.3em;
     color: #FCF5EB;
     border-bottom: 1px solid #FCF5EB;
     padding-bottom: 0.4em;
-    margin-left: 4em;
-    margin-top: 2em;
+    margin-left: 2em;
+    margin-top: 1.5em;
 }
 
 .nav {
@@ -123,30 +130,31 @@
 
 .culturalContainer {
     display: inline-block;
-    width: 21em;
+    width: 18em;
     margin-top: 2em;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 
 .literatureContainer {
     display: inline-block;
     float: right;
-    width: 21em;
-    margin-top: 5em;
+    width: 18em;
+    margin-right:-9em;
+    margin-top: 1em;
     /* margin-left: 4em; */
 }
 
 .culEvent {
     float: right;
-    width: 25em;
+    width: 20em;
     margin-bottom: -1.2em;
 }
 
 .litEvent {
-    margin-top: 18em;
+    margin-top: 15em;
     position: relative;
     float: right;
-    width: 25em;
+    width: 20em;
     margin-bottom: -1.2em;
 }
 
@@ -156,11 +164,11 @@
     color: #FCF5EB;
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: lighter;
-    font-size: 1em;
+    font-size: 0.85em;
     letter-spacing: 0.2em;
     border: 1px #FCF5EB solid;
     border-radius: 2em;
-    padding:  12px 40px ;
+    padding:  10px 30px ;
     float: right;
     display: inline;
     margin-right: 0.5em;
@@ -170,7 +178,7 @@
 .culDescription {
     float: right;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.72em;
+    font-size: 0.7em;
     font-weight: lighter;
     letter-spacing: 0.1em;
     line-height: 1.4em;
@@ -181,10 +189,32 @@
     float: right;
     text-align: right;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.72em;
+    font-size: 0.7em;
     font-weight: lighter;
     letter-spacing: 0.1em;
     line-height: 1.4em;
     color: #FCF5EB;
     /* padding-bottom: 3em; */
+}
+
+.socialMedia {
+    display: inline;
+    float: right;
+    margin-top: 22em;
+    margin-right: 3em;
+}
+
+.icons {
+    display: flex;
+    float: right;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
+.literatureMail, .culturalMail {
+    float: right;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    color: #AD2727;
 }
