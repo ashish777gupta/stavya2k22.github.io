@@ -1,0 +1,190 @@
+.home {
+    display: inline;
+}
+
+
+.welcomeH {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.5em;
+    letter-spacing: 0.1em;
+    margin-bottom: auto;
+}
+.welcomeP {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.88em;
+    margin-top: auto;
+    margin-bottom: 1em;
+    margin-left: 50em;
+    width: 30em;
+    float: right;
+}
+
+.instLogoWhite{
+    width: 5.5em;
+    margin-bottom: 1.5em;
+}
+/* 
+.welcome {
+    display: inline;
+    color: #FCF5EB;
+    margin-top: 5em;
+    float: right;
+    margin-right: 1em;
+} */
+
+.intro {
+    display: inline;
+    float: right;
+    color: #FCF5EB;
+    text-align: right;
+    width: 44em;
+    word-wrap: break-word;
+    margin-top: 5.5em;
+    margin-right: 3em;
+}
+
+.lm {
+    text-decoration: none;
+    text-align: center;
+    color: #FCF5EB;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    letter-spacing: 0.6em;
+    border: 2px #FCF5EB solid;
+    border-radius: 2em;
+    padding:  9px 18px ;
+    float: right;
+    display: inline;
+}
+
+
+.lcdc {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    width: 19em;
+    text-align: left;
+    letter-spacing: 0.2em;
+    /* display: inline; */
+    float: left;
+    /* font-weight: 300; */
+    margin-top: 9em;
+    /* margin-left: -90em; */
+}
+
+.container {
+    display: flex;
+    /* width: 700em; */
+}
+
+.containerLeft {
+    display: block;
+    width: 50rem;
+}
+
+.containerRight {
+    /* width: 50em; */
+    margin-left: 27em;
+    margin-top: 4em;
+    float: right;
+    /* width: 50em; */
+}
+
+.intLogoRed {
+    float: right;
+    width: 5em;
+    
+}
+
+.navBar {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 0.6em; */
+    letter-spacing: 0.3em;
+    color: #FCF5EB;
+    border-bottom: 1px solid #FCF5EB;
+    padding-bottom: 0.4em;
+    margin-left: 4em;
+    margin-top: 2em;
+}
+
+.nav {
+    text-decoration: none;
+    color: #FCF5EB;
+    font-weight: bold;
+}
+
+
+.arrow {
+    width: 1.5em;
+    margin-right: 1.2em;
+    margin-left: 1.2em;
+}
+
+.culturalContainer {
+    display: inline-block;
+    width: 21em;
+    margin-top: 2em;
+    margin-left: 4em;
+}
+
+.literatureContainer {
+    display: inline-block;
+    float: right;
+    width: 21em;
+    margin-top: 5em;
+    /* margin-left: 4em; */
+}
+
+.culEvent {
+    float: right;
+    width: 25em;
+    margin-bottom: -1.2em;
+}
+
+.litEvent {
+    margin-top: 18em;
+    position: relative;
+    float: right;
+    width: 25em;
+    margin-bottom: -1.2em;
+}
+
+.km {
+    text-decoration: none;
+    text-align: center;
+    color: #FCF5EB;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    border: 1px #FCF5EB solid;
+    border-radius: 2em;
+    padding:  12px 40px ;
+    float: right;
+    display: inline;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.culDescription {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.72em;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+    color: #FCF5EB;
+}
+
+.litDescription {
+    float: right;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.72em;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+    color: #FCF5EB;
+    /* padding-bottom: 3em; */
+}
