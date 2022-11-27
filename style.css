@@ -77,19 +77,17 @@ a {
     margin-top: 7em;
 }
 
-.container {
+.containerLcdc {
     display: flex;
 }
 
-.containerLeft {
+.containerLcdcLeft {
     display: block;
     width: 90em;
 }
 
-.containerRight {
+.containerLcdcRight {
     display: inline;
-    /* justify-content: right; */
-    /* width: 50em; */
     margin-left: 27em;
     margin-top: 4em;
     float: right;
@@ -128,14 +126,14 @@ a {
     margin-left: 1.2em;
 }
 
-.culturalContainer {
+.culturalContainerLcdc {
     display: inline-block;
     width: 18em;
     margin-top: 2em;
     margin-left: 3em;
 }
 
-.literatureContainer {
+.literatureContainerLcdc {
     display: inline-block;
     float: right;
     width: 18em;
@@ -217,4 +215,126 @@ a {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8em;
     color: #AD2727;
+}
+
+.containerCulturalEventLeft {
+    /* width: 90em; */
+    display: inline;
+}
+.CulturalEventDetail {
+    display: flex;
+    /* width: 20em; */
+}
+
+.CulturalEventBox {
+    border: 1px solid #FCF5EB;
+    border-radius: 20px;
+    padding: 0.2em 1em;
+    width: 20em;
+    margin: 0.5em;
+    margin-left: 2em;
+}
+
+.CulturalClubName {
+    font-family: 'DM Serif Display', serif;
+    color: #FCF5EB;
+    font-size: 1.8em;
+    letter-spacing: 0.04em;
+}
+
+.CulturalClub {
+    font-family: 'PT Sans Caption', sans-serif;
+    color: #FCF5EB;
+    font-size: 0.8em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-top: -1.4em;
+    letter-spacing: 0.05em;
+}
+
+.CulturalEventLogo {
+    margin-top: 1em;
+    margin-bottom: -2em;
+}
+
+.CulturalEventDes {
+    margin-left: 3em;
+    width: 29em;
+    color: #FCF5EB;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    line-height: 1.3em;
+}
+
+.containerCulturalEvent {
+    /* width: 10em; */
+    display: flex;
+}
+
+.containerCulturalRight {
+    display: inline;
+    /* margin-left: 0em; */
+    margin-top: 4em;
+    float: right;
+    width: 20em;
+}
+
+.CulturalBrochures {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: #FCF5EB;
+    border-bottom: 2px solid #fcf5eb89;
+    padding: 0em 1em 0em 0.2em;
+    margin: auto;
+    
+}
+
+.CulturalBrochures img{
+    width: 1.3em;
+    margin-right: 0.5em;
+    margin-bottom: -0.6em;
+}
+
+.CulturalBrochures h3 {
+    margin-bottom: 0.5em;
+}
+.CulturalToLit {
+    font-family: 'Open Sans', sans-serif;
+    color: #FCF5EB;
+    font-size: 0.55em;
+    letter-spacing: 0.2em;
+    display: inline-flex;
+    /* font-weight: 300; */
+}
+.CulturalToLit img {
+    margin: -2em 1em;
+}
+
+.CulturalEndNote {
+    /* float: right; */
+    margin-left: 11em;
+}
+
+.CulturalLitNote {
+    font-family: 'Open Sans', sans-serif;
+    color: #FCF5EB;
+    font-size: 1.2em;
+    margin-top: -0.4em;
+    letter-spacing: 0.04em;
+}
+
+.designCourtesy {
+    font-family: 'Open Sans', sans-serif;
+    color: #AD2727;
+    font-size: 0.35em;
+    text-align: center;
+    letter-spacing: 1.5em;
+    background-color: #FCF5EB;
+    padding: 0.2em;
+    width: 100%;
+    margin-top: 2em;
+    margin-left: -2em;
+    margin-right: -2em;
+    position: absolute;
+    bottom: 0;
 }
