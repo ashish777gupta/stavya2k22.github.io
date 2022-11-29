@@ -156,10 +156,11 @@ a {
     margin-bottom: -1.2em;
 }
 
-.km {
+.km-cult, .km-lit {
     text-decoration: none;
     text-align: center;
     color: #FCF5EB;
+    /* background-color: #AD2727; */
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: lighter;
     font-size: 0.85em;
@@ -226,6 +227,21 @@ a {
     /* width: 20em; */
 }
 
+
+.LiteratureEventLogo {
+    margin-left: 2em;
+    margin-right: 1em;
+    width: 3em;
+}
+
+.LiteratureClubName {
+    font-family: 'DM Serif Display', serif;
+    color: #FCF5EB;
+    font-size: 1.8em;
+    letter-spacing: 0.04em;
+    margin-top: 0.3em;
+}
+
 .CulturalEventBox {
     border: 1px solid #FCF5EB;
     border-radius: 20px;
@@ -233,6 +249,18 @@ a {
     width: 20em;
     margin: 0.5em;
     margin-left: 2em;
+    transition: transform .5s;
+}
+
+.LiteratureEventBox {
+    display: inline-flex;
+    border: 1px solid #FCF5EB;
+    border-radius: 20px;
+    padding: 1em 0em;
+    width: 22em;
+    margin: 0.8em;
+    margin-left: 2em;
+    transition: transform .5s;
 }
 
 .CulturalClubName {
@@ -243,11 +271,14 @@ a {
 }
 
 .CulturalClub {
+    text-transform: uppercase;
+}
+
+.CulturalClub, .LiteratureClub {
     font-family: 'PT Sans Caption', sans-serif;
     color: #FCF5EB;
     font-size: 0.8em;
     font-weight: lighter;
-    text-transform: uppercase;
     margin-top: -1.4em;
     letter-spacing: 0.05em;
 }
@@ -267,13 +298,11 @@ a {
 }
 
 .containerCulturalEvent {
-    /* width: 10em; */
     display: flex;
 }
 
 .containerCulturalRight {
     display: inline;
-    /* margin-left: 0em; */
     margin-top: 4em;
     float: right;
     width: 20em;
@@ -311,7 +340,6 @@ a {
 }
 
 .CulturalEndNote {
-    /* float: right; */
     margin-left: 11em;
 }
 
@@ -337,4 +365,69 @@ a {
     margin-right: -2em;
     position: absolute;
     bottom: 0;
+}
+
+.km-cult:hover, .CulturalEventBox:hover {
+    transition: transform 2s;
+    transform: scale(1.1);
+    border: 2px solid #fcf5ebc1;
+    background: linear-gradient(200deg,#8b1212, #951414, #ae1717, #AD2727, #960f0f);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:78% 0%}
+    50%{background-position:23% 100%}
+    100%{background-position:78% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:78% 0%}
+    50%{background-position:23% 100%}
+    100%{background-position:78% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:78% 0%}
+    50%{background-position:23% 100%}
+    100%{background-position:78% 0%}
+}
+
+.km-lit:hover, .LiteratureEventBox:hover {
+    transition: transform 2s;
+    transform: scale(1.1);
+    border: 2px solid #fcf5ebc1;
+    background: linear-gradient(200deg, #ac0f38, #98092e, #af294d, #95082e);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+.lm:hover{
+    transition: transform 2s;
+    transform: scale(1.1);
+    border: 2px solid #fcf5ebc1;
+    background: linear-gradient(200deg, #a32b0c, #af3618, #BA4B2F, #982e13);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+.nav:hover{
+    transition: transform 0.5s;
+    transform: scale(0.92);
+    color: #fcf5eb7b;
+}
+
+.arrow:hover {
+    transition: transform 0.5s;
+    transform: scale(1.2);
+    color: #fcf5eb7b;
 }
