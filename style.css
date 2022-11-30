@@ -28,6 +28,7 @@ a {
 
 .instLogoWhite{
     width: 5.5em;
+    margin-top: 5em;
     margin-bottom: 1.5em;
 }
 /* 
@@ -46,7 +47,7 @@ a {
     text-align: right;
     width: 50em;
     word-wrap: break-word;
-    margin-top: 5.5em;
+    margin-top: 0.5em;
     margin-right: 3em;
 }
 
@@ -63,6 +64,18 @@ a {
     padding:  9px 18px ;
     float: right;
     display: inline;
+}
+
+.hashTags {
+    font-family: 'Michroma', sans-serif;
+    font-size: 0.65em;
+    float: left;
+    text-align: left;
+    line-height: 1em;
+    letter-spacing: 0.3em;
+    font-weight: bolder;
+    padding-top: -2em;
+    color: #fcf5eb66;
 }
 
 .lcdc {
